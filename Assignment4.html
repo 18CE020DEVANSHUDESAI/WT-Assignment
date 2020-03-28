@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+
+</head>
+<body>
+ 
+
+<form style="font-size: 20px;" method="post" >
+					Registration...
+
+					<table border="0" frame="void" cellpacing="0px" cellpadding="12px" bgcolor="#b5b2b1" height="500px" width="700px">
+
+						<tr bgcolor="#b5b2b1">
+							<td >
+								<label for="FN">Enter Your Name</label>
+							</td>
+							<td colspan="2" >
+								<input type="text" name="FirstName" id="FN" style="width:100%" required>
+							</td>
+						</tr>
+
+						<tr bgcolor="#b5b2b1">
+							<td >
+								<label for="LN">Enter Your Mail-id</label>
+							</td>
+							<td>
+								<input type="email" name="email" id="LN" style="width:100%"  required>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td >
+								<label>Gender:</label>
+							</td>
+							<td>
+								<input type="radio" name="gender" id="male" required>
+								<label for="male">Male</label>
+
+								<input type="radio" name="gender" id="female" required>
+								<label for="female">Female</label>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td >
+								<label for="FN">Create Your Password</label>
+							</td>
+							<td colspan="2" border="">
+								<input type="password" name="Password" id="FN" style="width:100%" required>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td >
+								<label for="FN">Confirm Your Password</label>
+							</td>
+							<td colspan="2" border="">
+								<input type="password" name="ConfirmPassword" id="FN" style="width:100%" required>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td>
+								<label for="phoneNo">Mobile No.</label>
+							</td>
+							<td>
+								<input type="tel" name="phoneno" id="phoneNo" style="width:100%" pattern="[0-9]{2}-[0-9]{10}"  required>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td>
+								<label for="dob">Choose Your DOB</label>
+							</td>
+							<td>
+								<input type="date" id="date" minlength="1990-01-01" maxlength="2021-12-31">
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td>
+								<label for="address">Enter Your Address</label>
+							</td>
+							<td>
+								<textarea name="address" rows="5" cols="20"></textarea>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td>
+								<label for="location">Choose Your Location</label>
+							</td>
+							<td>		
+							<select id="location">
+									<option selected ></option>
+									<option>Surat</option>
+									<option>Ahmedabad</option>
+									<option>Nadiad</option>
+									<option>Anand</option>
+								</select>
+							</td>
+						</tr>
+						<tr bgcolor="#b5b2b1">
+							<td colspan="2">
+
+			      	<input type="submit" name="submit" style="width:40%; value="submit" autofocus>
+							<input type="reset" name="reset" style="width:40%;  value="reset">
+							</td>
+						</tr>
+
+					</table>
+
+				</form>
+				</div>
+</body>
+</html>

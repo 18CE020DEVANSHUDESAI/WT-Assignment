@@ -1,0 +1,20 @@
+		.para{
+			text-indent: 45px;
+			color: white;
+		}
+		.div{
+			float: right;
+			width: 1170px;
+		}
+		table, th, td{
+			border: 1px solid white;
+			color: white;
+		}
+		.align{
+			text-align: center;
+		}
+		p{
+			font-family: sans-serif;
+			font-size: 22.3px;
+			color: white;
+		}
